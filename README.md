@@ -1,5 +1,7 @@
 # OHSUMED:An interactive retrieval evaluation and new large test collection for research
 
+###Note: The files were processed to make them compatible for the data sprint @HuggingFace (Dec 2020) 
+
 ## About the dataset
 
 The OHSUMED test collection is a set of 348,566 references from
@@ -53,5 +55,25 @@ The train test distribution is as follows. Test data size is larger than train s
 
     Train:  54,710
     Test : 293,858
+
+The original dataset is in a _weird_ format. Its something similar to this:
+
+```
+Row 1  Col 1
+Row 1
+Col 2
+Row 1
+Col 3
+.
+.
+Row 2 Col 1
+Row 2
+Col 2 
+Row 2
+Col 3
+
+
+```
+
 
 Check the notebook in the repo for the pre-processing details
